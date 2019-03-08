@@ -1,0 +1,759 @@
+2019-03-08 14:42:38.724  INFO 4808 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 4808 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:42:38.725  INFO 4808 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:42:38.756  INFO 4808 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63cdfead: startup date [Fri Mar 08 14:42:38 CST 2019]; root of context hierarchy
+2019-03-08 14:42:39.658  INFO 4808 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f6a6d41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:42:39.981  INFO 4808 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:42:39.995  INFO 4808 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:42:40.003  INFO 4808 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:42:40.004  INFO 4808 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:42:40.006  INFO 4808 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:42:40.158  INFO 4808 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:42:40.159  INFO 4808 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1403 ms
+2019-03-08 14:42:40.296  INFO 4808 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:42:40.299  INFO 4808 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:42:40.300  INFO 4808 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:42:40.300  INFO 4808 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:42:40.300  INFO 4808 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:42:40.428  INFO 4808 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:42:40.841  INFO 4808 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:42:40.877  INFO 4808 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:42:40.887  INFO 4808 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:42:40.958  INFO 4808 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:42:40.959  INFO 4808 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:42:40.997  INFO 4808 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:42:41.101  INFO 4808 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:42:41.209  WARN 4808 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.jffox.cloud.entity.RepCsBankDaifu
+2019-03-08 14:42:41.209  INFO 4808 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-08 14:42:41.215  INFO 4808 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-08 14:42:41.218  INFO 4808 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-08 14:42:41.227  INFO 4808 --- [-] [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-08 14:42:41.234 ERROR 4808 --- [-] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.jffox.cloud.entity.RepCsBankDaifu
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.jffox.cloud.ApplicationStarter.main(ApplicationStarter.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.jffox.cloud.entity.RepCsBankDaifu
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:731)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:249)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:861)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+
+2019-03-08 14:46:17.684  INFO 9356 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 9356 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:46:17.686  INFO 9356 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:46:17.724  INFO 9356 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fc7cf2: startup date [Fri Mar 08 14:46:17 CST 2019]; root of context hierarchy
+2019-03-08 14:46:18.750  INFO 9356 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a26b20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:46:19.042  INFO 9356 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:46:19.054  INFO 9356 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:46:19.061  INFO 9356 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:46:19.062  INFO 9356 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:46:19.065  INFO 9356 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:46:19.212  INFO 9356 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:46:19.213  INFO 9356 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1489 ms
+2019-03-08 14:46:19.373  INFO 9356 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:46:19.377  INFO 9356 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:46:19.378  INFO 9356 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:46:19.378  INFO 9356 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:46:19.378  INFO 9356 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:46:19.489  INFO 9356 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:46:19.834  INFO 9356 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:46:19.930  INFO 9356 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:46:19.939  INFO 9356 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:46:19.984  INFO 9356 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:46:19.985  INFO 9356 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:46:20.013  INFO 9356 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:46:20.099  INFO 9356 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:46:20.204  WARN 9356 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.jffox.cloud.entity.RepCsBankDaifu
+2019-03-08 14:46:20.205  INFO 9356 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-08 14:46:20.264  INFO 9356 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-08 14:46:20.265  INFO 9356 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-08 14:46:20.274  INFO 9356 --- [-] [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-08 14:46:20.280 ERROR 9356 --- [-] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.jffox.cloud.entity.RepCsBankDaifu
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.jffox.cloud.ApplicationStarter.main(ApplicationStarter.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.jffox.cloud.entity.RepCsBankDaifu
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:731)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:249)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:861)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+
+2019-03-08 14:49:09.353  INFO 16620 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 16620 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:49:09.354  INFO 16620 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:49:09.384  INFO 16620 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1637a09a: startup date [Fri Mar 08 14:49:09 CST 2019]; root of context hierarchy
+2019-03-08 14:49:10.285  INFO 16620 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$286aee9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:49:10.565  INFO 16620 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:49:10.576  INFO 16620 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:49:10.582  INFO 16620 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:49:10.582  INFO 16620 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:49:10.585  INFO 16620 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:49:10.713  INFO 16620 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:49:10.714  INFO 16620 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1330 ms
+2019-03-08 14:49:10.854  INFO 16620 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:49:10.859  INFO 16620 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:49:10.859  INFO 16620 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:49:10.859  INFO 16620 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:49:10.859  INFO 16620 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:49:10.967  INFO 16620 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:49:11.376  INFO 16620 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:49:11.399  INFO 16620 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:49:11.408  INFO 16620 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:49:11.449  INFO 16620 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:49:11.450  INFO 16620 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:49:11.475  INFO 16620 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:49:11.546  INFO 16620 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:49:11.997  INFO 16620 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:49:12.491  INFO 16620 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1637a09a: startup date [Fri Mar 08 14:49:09 CST 2019]; root of context hierarchy
+2019-03-08 14:49:12.514  WARN 16620 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 14:49:12.539  INFO 16620 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 14:49:12.540  INFO 16620 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 14:49:12.541  WARN 16620 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+2019-03-08 14:49:12.542  INFO 16620 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:49:12.542  INFO 16620 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-08 14:49:12.545  INFO 16620 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-08 14:49:12.546  INFO 16620 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-08 14:49:12.554  INFO 16620 --- [-] [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-08 14:49:12.559 ERROR 16620 --- [-] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.jffox.cloud.ApplicationStarter.main(ApplicationStarter.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:251)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+
+2019-03-08 14:53:13.467  INFO 16848 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 16848 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:53:13.470  INFO 16848 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:53:13.505  INFO 16848 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2782e052: startup date [Fri Mar 08 14:53:13 CST 2019]; root of context hierarchy
+2019-03-08 14:53:14.399  INFO 16848 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75b4a255] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:53:14.680  INFO 16848 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:53:14.691  INFO 16848 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:53:14.698  INFO 16848 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:53:14.698  INFO 16848 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:53:14.700  INFO 16848 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:53:14.843  INFO 16848 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:53:14.843  INFO 16848 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
+2019-03-08 14:53:14.994  INFO 16848 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:53:14.997  INFO 16848 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:53:14.997  INFO 16848 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:53:14.998  INFO 16848 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:53:14.998  INFO 16848 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:53:15.100  INFO 16848 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:53:15.503  INFO 16848 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:53:15.525  INFO 16848 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:53:15.535  INFO 16848 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:53:15.578  INFO 16848 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:53:15.578  INFO 16848 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:53:15.607  INFO 16848 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:53:15.680  INFO 16848 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:53:16.084  INFO 16848 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:53:16.535  INFO 16848 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2782e052: startup date [Fri Mar 08 14:53:13 CST 2019]; root of context hierarchy
+2019-03-08 14:53:16.558  WARN 16848 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 14:53:16.582  INFO 16848 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/**],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 14:53:16.583  INFO 16848 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/**],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 14:53:16.584  WARN 16848 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+to {[/**],methods=[GET]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String) mapped.
+2019-03-08 14:53:16.584  INFO 16848 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:53:16.586  INFO 16848 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-08 14:53:16.588  INFO 16848 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-08 14:53:16.589  INFO 16848 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-08 14:53:16.597  INFO 16848 --- [-] [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-08 14:53:16.602 ERROR 16848 --- [-] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+to {[/**],methods=[GET]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.jffox.cloud.ApplicationStarter.main(ApplicationStarter.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+to {[/**],methods=[GET]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:251)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+
+2019-03-08 14:53:53.793  INFO 15144 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 15144 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:53:53.794  INFO 15144 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:53:53.826  INFO 15144 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@578e141a: startup date [Fri Mar 08 14:53:53 CST 2019]; root of context hierarchy
+2019-03-08 14:53:54.688  INFO 15144 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$772b67be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:53:54.987  INFO 15144 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:53:54.999  INFO 15144 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:53:55.006  INFO 15144 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:53:55.006  INFO 15144 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:53:55.008  INFO 15144 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:53:55.137  INFO 15144 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:53:55.138  INFO 15144 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1312 ms
+2019-03-08 14:53:55.270  INFO 15144 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:53:55.274  INFO 15144 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:53:55.274  INFO 15144 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:53:55.274  INFO 15144 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:53:55.274  INFO 15144 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:53:55.381  INFO 15144 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:53:55.785  INFO 15144 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:53:55.810  INFO 15144 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:53:55.818  INFO 15144 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:53:55.860  INFO 15144 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:53:55.861  INFO 15144 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:53:55.890  INFO 15144 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:53:55.963  INFO 15144 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:53:56.358  INFO 15144 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:53:56.810  INFO 15144 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@578e141a: startup date [Fri Mar 08 14:53:53 CST 2019]; root of context hierarchy
+2019-03-08 14:53:56.832  WARN 15144 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 14:53:56.855  INFO 15144 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 14:53:56.856  INFO 15144 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/a],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 14:53:56.857  WARN 15144 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[/b],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+2019-03-08 14:53:56.857  INFO 15144 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:53:56.858  INFO 15144 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-08 14:53:56.861  INFO 15144 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-08 14:53:56.862  INFO 15144 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-08 14:53:56.870  INFO 15144 --- [-] [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-08 14:53:56.875 ERROR 15144 --- [-] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[/b],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.jffox.cloud.ApplicationStarter.main(ApplicationStarter.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[/b],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:251)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+
+2019-03-08 14:56:12.367  INFO 20160 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 20160 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:56:12.369  INFO 20160 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:56:12.401  INFO 20160 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2277fae9: startup date [Fri Mar 08 14:56:12 CST 2019]; root of context hierarchy
+2019-03-08 14:56:13.265  INFO 20160 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c9df04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:56:13.541  INFO 20160 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:56:13.552  INFO 20160 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:56:13.558  INFO 20160 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:56:13.559  INFO 20160 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:56:13.561  INFO 20160 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:56:13.680  INFO 20160 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:56:13.681  INFO 20160 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1280 ms
+2019-03-08 14:56:13.819  INFO 20160 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:56:13.825  INFO 20160 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:56:13.825  INFO 20160 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:56:13.826  INFO 20160 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:56:13.826  INFO 20160 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:56:13.933  INFO 20160 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:56:14.275  INFO 20160 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:56:14.359  INFO 20160 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:56:14.367  INFO 20160 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:56:14.410  INFO 20160 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:56:14.411  INFO 20160 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:56:14.436  INFO 20160 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:56:14.517  INFO 20160 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:56:14.915  INFO 20160 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:56:15.350  INFO 20160 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2277fae9: startup date [Fri Mar 08 14:56:12 CST 2019]; root of context hierarchy
+2019-03-08 14:56:15.384  WARN 20160 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 14:56:15.408  INFO 20160 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/b],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 14:56:15.409  INFO 20160 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/a],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 14:56:15.410  WARN 20160 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[/b],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+2019-03-08 14:56:15.410  INFO 20160 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:56:15.411  INFO 20160 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-08 14:56:15.414  INFO 20160 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-08 14:56:15.415  INFO 20160 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-08 14:56:15.422  INFO 20160 --- [-] [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-08 14:56:15.428 ERROR 20160 --- [-] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[/b],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.jffox.cloud.ApplicationStarter.main(ApplicationStarter.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map '/com/jffox/ai/queryHuabo' method 
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+to {[/b],methods=[POST]}: There is already '/com/jffox/ai/queryDaifu' bean method
+public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:251)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 21 common frames omitted
+
+2019-03-08 14:57:37.355  INFO 21952 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 21952 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 14:57:37.357  INFO 21952 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : No active profile set, falling back to default profiles: default
+2019-03-08 14:57:37.395  INFO 21952 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bd112a: startup date [Fri Mar 08 14:57:37 CST 2019]; root of context hierarchy
+2019-03-08 14:57:38.364  INFO 21952 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$988b8c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 14:57:38.658  INFO 21952 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-08 14:57:38.672  INFO 21952 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:57:38.679  INFO 21952 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 14:57:38.679  INFO 21952 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 14:57:38.682  INFO 21952 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 14:57:38.804  INFO 21952 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 14:57:38.805  INFO 21952 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1409 ms
+2019-03-08 14:57:38.950  INFO 21952 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 14:57:38.955  INFO 21952 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 14:57:38.955  INFO 21952 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 14:57:38.955  INFO 21952 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 14:57:38.955  INFO 21952 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 14:57:39.062  INFO 21952 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-08 14:57:39.399  INFO 21952 --- [-] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-08 14:57:39.489  INFO 21952 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:57:39.497  INFO 21952 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 14:57:39.540  INFO 21952 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 14:57:39.540  INFO 21952 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 14:57:39.566  INFO 21952 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 14:57:39.648  INFO 21952 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 14:57:40.047  INFO 21952 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 14:57:40.509  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bd112a: startup date [Fri Mar 08 14:57:37 CST 2019]; root of context hierarchy
+2019-03-08 14:57:40.530  WARN 21952 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 14:57:40.554  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 14:57:40.555  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 14:57:40.556  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+2019-03-08 14:57:40.556  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+2019-03-08 14:57:40.558  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-08 14:57:40.559  INFO 21952 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-08 14:57:40.582  INFO 21952 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 14:57:40.582  INFO 21952 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 14:57:40.611  INFO 21952 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 14:57:40.753  INFO 21952 --- [-] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-08 14:57:40.806  INFO 21952 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-08 14:57:40.807  INFO 21952 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-08 14:57:40.811  INFO 21952 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-03-08 14:57:40.824  INFO 21952 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-03-08 14:57:40.841  INFO 21952 --- [-] [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-08 14:57:40.858  INFO 21952 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-08 14:57:40.861  INFO 21952 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Started ApplicationStarter in 3.92 seconds (JVM running for 5.188)
+2019-03-08 15:13:50.210  INFO 15012 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 15012 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 15:13:50.211  INFO 15012 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : The following profiles are active: test
+2019-03-08 15:13:50.262  INFO 15012 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62879fbb: startup date [Fri Mar 08 15:13:50 CST 2019]; root of context hierarchy
+2019-03-08 15:13:51.156  INFO 15012 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3e5e676] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 15:13:51.441  INFO 15012 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9606 (http)
+2019-03-08 15:13:51.452  INFO 15012 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9606"]
+2019-03-08 15:13:51.458  INFO 15012 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 15:13:51.458  INFO 15012 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 15:13:51.461  INFO 15012 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 15:13:51.593  INFO 15012 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 15:13:51.593  INFO 15012 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1331 ms
+2019-03-08 15:13:51.728  INFO 15012 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 15:13:51.731  INFO 15012 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 15:13:51.732  INFO 15012 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 15:13:51.732  INFO 15012 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 15:13:51.732  INFO 15012 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 15:13:51.912  INFO 15012 --- [-] [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-08 15:13:52.204  INFO 15012 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 15:13:52.213  INFO 15012 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 15:13:52.258  INFO 15012 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 15:13:52.259  INFO 15012 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 15:13:52.285  INFO 15012 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 15:13:52.359  INFO 15012 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 15:13:52.750  INFO 15012 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 15:13:53.196  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62879fbb: startup date [Fri Mar 08 15:13:50 CST 2019]; root of context hierarchy
+2019-03-08 15:13:53.217  WARN 15012 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 15:13:53.241  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 15:13:53.242  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 15:13:53.243  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+2019-03-08 15:13:53.243  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+2019-03-08 15:13:53.246  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-08 15:13:53.247  INFO 15012 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-08 15:13:53.272  INFO 15012 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:13:53.272  INFO 15012 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:13:53.297  INFO 15012 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:13:53.419  INFO 15012 --- [-] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-08 15:13:53.473  INFO 15012 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-08 15:13:53.475  INFO 15012 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-08 15:13:53.481  INFO 15012 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-08 15:13:53.494  INFO 15012 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9606"]
+2019-03-08 15:13:53.509  INFO 15012 --- [-] [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-08 15:13:53.524  INFO 15012 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9606 (http) with context path ''
+2019-03-08 15:13:53.526  INFO 15012 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Started ApplicationStarter in 3.821 seconds (JVM running for 4.946)
+2019-03-08 15:17:03.570  INFO 15012 --- [-] [http-nio-9606-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-08 15:17:03.570  INFO 15012 --- [-] [http-nio-9606-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-08 15:17:03.600  INFO 15012 --- [-] [http-nio-9606-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-03-08 15:17:03.710  INFO 15012 --- [-] [http-nio-9606-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-03-08 15:20:47.487  INFO 19468 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 19468 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 15:20:47.488  INFO 19468 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : The following profiles are active: test
+2019-03-08 15:20:47.528  INFO 19468 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@317a60de: startup date [Fri Mar 08 15:20:47 CST 2019]; root of context hierarchy
+2019-03-08 15:20:48.405  INFO 19468 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a669205] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 15:20:48.687  INFO 19468 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9606 (http)
+2019-03-08 15:20:48.699  INFO 19468 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9606"]
+2019-03-08 15:20:48.705  INFO 19468 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 15:20:48.706  INFO 19468 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 15:20:48.708  INFO 19468 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 15:20:48.837  INFO 19468 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 15:20:48.837  INFO 19468 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1309 ms
+2019-03-08 15:20:48.964  INFO 19468 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 15:20:48.968  INFO 19468 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 15:20:48.969  INFO 19468 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 15:20:48.969  INFO 19468 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 15:20:48.969  INFO 19468 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 15:20:49.130  INFO 19468 --- [-] [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-08 15:20:49.418  INFO 19468 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 15:20:49.427  INFO 19468 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 15:20:49.470  INFO 19468 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 15:20:49.471  INFO 19468 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 15:20:49.498  INFO 19468 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 15:20:49.571  INFO 19468 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 15:20:49.949  INFO 19468 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 15:20:50.401  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@317a60de: startup date [Fri Mar 08 15:20:47 CST 2019]; root of context hierarchy
+2019-03-08 15:20:50.423  WARN 19468 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 15:20:50.448  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 15:20:50.449  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 15:20:50.450  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+2019-03-08 15:20:50.450  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+2019-03-08 15:20:50.453  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-08 15:20:50.453  INFO 19468 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-08 15:20:50.478  INFO 19468 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:20:50.478  INFO 19468 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:20:50.507  INFO 19468 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:20:50.635  INFO 19468 --- [-] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-08 15:20:50.693  INFO 19468 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-08 15:20:50.694  INFO 19468 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-08 15:20:50.699  INFO 19468 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-08 15:20:50.708  INFO 19468 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9606"]
+2019-03-08 15:20:50.721  INFO 19468 --- [-] [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-08 15:20:50.736  INFO 19468 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9606 (http) with context path ''
+2019-03-08 15:20:50.738  INFO 19468 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Started ApplicationStarter in 3.738 seconds (JVM running for 4.957)
+2019-03-08 15:20:58.353  INFO 19468 --- [-] [http-nio-9606-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-08 15:20:58.353  INFO 19468 --- [-] [http-nio-9606-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-08 15:20:58.380  INFO 19468 --- [-] [http-nio-9606-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2019-03-08 15:20:58.457  INFO 19468 --- [-] [http-nio-9606-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-03-08 15:24:31.915  INFO 12264 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Starting ApplicationStarter on DESKTOP-M455H5S with PID 12264 (D:\github2019\daifuhuabo\target\classes started by agp50 in D:\github2019\daifuhuabo)
+2019-03-08 15:24:31.916  INFO 12264 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : The following profiles are active: test
+2019-03-08 15:24:31.958  INFO 12264 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6deca5fd: startup date [Fri Mar 08 15:24:31 CST 2019]; root of context hierarchy
+2019-03-08 15:24:32.918  INFO 12264 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c125f8af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 15:24:33.201  INFO 12264 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9606 (http)
+2019-03-08 15:24:33.212  INFO 12264 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9606"]
+2019-03-08 15:24:33.219  INFO 12264 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 15:24:33.220  INFO 12264 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 15:24:33.222  INFO 12264 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 15:24:33.366  INFO 12264 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 15:24:33.367  INFO 12264 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1409 ms
+2019-03-08 15:24:33.502  INFO 12264 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 15:24:33.505  INFO 12264 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 15:24:33.505  INFO 12264 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 15:24:33.506  INFO 12264 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 15:24:33.506  INFO 12264 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 15:24:33.680  INFO 12264 --- [-] [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-08 15:24:33.964  INFO 12264 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-08 15:24:33.974  INFO 12264 --- [-] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-08 15:24:34.020  INFO 12264 --- [-] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-08 15:24:34.020  INFO 12264 --- [-] [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-08 15:24:34.049  INFO 12264 --- [-] [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-08 15:24:34.120  INFO 12264 --- [-] [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-08 15:24:34.507  INFO 12264 --- [-] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-08 15:24:34.962  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6deca5fd: startup date [Fri Mar 08 15:24:31 CST 2019]; root of context hierarchy
+2019-03-08 15:24:34.983  WARN 12264 --- [-] [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-08 15:24:35.011  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchPostQuery(java.lang.String)
+2019-03-08 15:24:35.012  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryDaifu],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.DaifuController.batchGetQuery(java.lang.String)
+2019-03-08 15:24:35.013  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[POST]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchPostQuery(java.lang.String)
+2019-03-08 15:24:35.013  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/com/jffox/ai/queryHuabo],methods=[GET]}" onto public com.jffox.cloud.entity.Result com.jffox.cloud.controller.HuaboController.batchGetQuery(java.lang.String)
+2019-03-08 15:24:35.016  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-08 15:24:35.017  INFO 12264 --- [-] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-08 15:24:35.042  INFO 12264 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:24:35.042  INFO 12264 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:24:35.070  INFO 12264 --- [-] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-08 15:24:35.206  INFO 12264 --- [-] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-08 15:24:35.284  INFO 12264 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-08 15:24:35.286  INFO 12264 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-08 15:24:35.295  INFO 12264 --- [-] [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-08 15:24:35.306  INFO 12264 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9606"]
+2019-03-08 15:24:35.321  INFO 12264 --- [-] [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-08 15:24:35.342  INFO 12264 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9606 (http) with context path ''
+2019-03-08 15:24:35.345  INFO 12264 --- [-] [restartedMain] com.jffox.cloud.ApplicationStarter       : Started ApplicationStarter in 3.971 seconds (JVM running for 5.144)
+2019-03-08 15:24:39.439  INFO 12264 --- [-] [http-nio-9606-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-08 15:24:39.439  INFO 12264 --- [-] [http-nio-9606-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-08 15:24:39.475  INFO 12264 --- [-] [http-nio-9606-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2019-03-08 15:24:39.595  INFO 12264 --- [-] [http-nio-9606-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-03-08 16:22:06.001  INFO 15504 --- [-] [restartedMain] com.agp.cloud.ApplicationStarter         : Starting ApplicationStarter on DESKTOP-M455H5S with PID 15504 (D:\github2019\springboot-jpa-demo\target\classes started by agp50 in D:\github2019\springboot-jpa-demo)
+2019-03-08 16:22:06.003  INFO 15504 --- [-] [restartedMain] com.agp.cloud.ApplicationStarter         : The following profiles are active: test
+2019-03-08 16:22:06.047  INFO 15504 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@492ff21e: startup date [Fri Mar 08 16:22:06 CST 2019]; root of context hierarchy
+2019-03-08 16:22:06.964  INFO 15504 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2359efb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 16:22:07.276  INFO 15504 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9606 (http)
+2019-03-08 16:22:07.287  INFO 15504 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9606"]
+2019-03-08 16:22:07.294  INFO 15504 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 16:22:07.294  INFO 15504 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 16:22:07.297  INFO 15504 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 16:22:07.427  INFO 15504 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 16:22:07.428  INFO 15504 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1381 ms
+2019-03-08 16:22:07.549  INFO 15504 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 16:22:07.552  INFO 15504 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 16:22:07.553  INFO 15504 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 16:22:07.553  INFO 15504 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 16:22:07.553  INFO 15504 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 16:22:07.716  INFO 15504 --- [-] [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-08 16:22:28.828 ERROR 15504 --- [-] [Druid-ConnectionPool-Create-1161069990] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://111.111.111.111:3306/bigdatafk_dm?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Hongkong&zeroDateTimeBehavior=convertToNull, errorCode 0, state 08S01
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1468)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1533)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2333)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 15 common frames omitted
+
+2019-03-08 16:22:33.676  INFO 16640 --- [-] [restartedMain] com.agp.cloud.ApplicationStarter         : Starting ApplicationStarter on DESKTOP-M455H5S with PID 16640 (D:\github2019\springboot-jpa-demo\target\classes started by agp50 in D:\github2019\springboot-jpa-demo)
+2019-03-08 16:22:33.677  INFO 16640 --- [-] [restartedMain] com.agp.cloud.ApplicationStarter         : The following profiles are active: test
+2019-03-08 16:22:33.723  INFO 16640 --- [-] [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a1048a0: startup date [Fri Mar 08 16:22:33 CST 2019]; root of context hierarchy
+2019-03-08 16:22:34.513  INFO 16640 --- [-] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e306865] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-08 16:22:34.795  INFO 16640 --- [-] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9606 (http)
+2019-03-08 16:22:34.806  INFO 16640 --- [-] [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9606"]
+2019-03-08 16:22:34.812  INFO 16640 --- [-] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-08 16:22:34.812  INFO 16640 --- [-] [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-03-08 16:22:34.814  INFO 16640 --- [-] [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.3.9\bin;C:\Java\jdk1.8.0_181\bin;C:\Java\jdk1.8.0_181\jre\bin;C:\Program Files (x86)\scala\bin;C:\Users\agp50\source\repos\JavaInvoke\x64\Release\JavaInvoke.dll;C:\Users\agp50\AppData\Local\Programs\Python\Python36;C:\Users\agp50\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Git\cmd;C:\Users\agp50\Downloads\mysql-8.0.12-winx64\bin;C:\Program Files\PuTTY\;C:\sbt\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;%GOPATH%\bin;C:\Users\agp50\AppData\Local\Microsoft\WindowsApps;C:\Users\agp50\AppData\Roaming\npm;C:\Users\agp50\AppData\Local\Yarn\bin;C:\Users\agp50\go\bin;.]
+2019-03-08 16:22:34.944  INFO 16640 --- [-] [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-08 16:22:34.944  INFO 16640 --- [-] [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1221 ms
+2019-03-08 16:22:35.076  INFO 16640 --- [-] [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-08 16:22:35.080  INFO 16640 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-08 16:22:35.080  INFO 16640 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-08 16:22:35.080  INFO 16640 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-08 16:22:35.080  INFO 16640 --- [-] [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-08 16:22:35.239  INFO 16640 --- [-] [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited

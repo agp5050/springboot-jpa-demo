@@ -1,0 +1,11 @@
+server:
+  port: 9606
+
+
+spring:
+  profiles:
+#   active: dev
+#   active: prod
+    active: test
+
+
